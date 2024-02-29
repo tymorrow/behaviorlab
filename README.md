@@ -4,32 +4,31 @@ This repo builds a unique *Behavior Lab* for each student.
 A behavior lab consists of *N* programs for which a student must identify certain characteristics.
 These characteristics will be need to be logged in an *answers* CSV file and compared to the solution for grading.
 
+
 ## Installation
 
 ```bash
 pip install -r requirements.txt
 ```
 
+
 ## Usage
 
-This isn't a python package, nor does it currently have dependencies.
-If you have Python 3.X, just run the following on a Linux-based system:
+### Generating
+
+If you have Python 3.X, you can run:
 
 ```bash
 ./generate.sh
 ```
 
-Alternatively, if you don't have bash, you can run:
+or:
 
 ```bash
 python3 generate.py
 ```
 
-### Students
-
-For `generate.py` to work, you will need to add a `students.json` file in the same directory.
-
-The file should follow the following structure:
+For `generate.py` to work, you will need to add a `students.json` file with the following structure:
 
 ```
 {
@@ -43,10 +42,8 @@ The file should follow the following structure:
 }
 ```
 
-## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+### Grading
 
-## License
+Grading is done with `grade.py`.
 
-[MIT](https://choosealicense.com/licenses/mit/)

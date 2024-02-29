@@ -8,7 +8,7 @@ import fire
 CORRECT_THRESHOLD = 5
 SECRET_THRESHOLD = 8
 MAX_DIST = 0
-SUBMISSIONS_DIR_NAME = "submissions2"
+SUBMISSIONS_DIR_NAME = "submissions"
 BUILD_DIR_NAME = "build"
 STUDENTS_FILE = "students.json"
 SECRET_HEADER_NAME = "secret"

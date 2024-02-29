@@ -1,7 +1,7 @@
 import os
 import glob
 
-SUBMISSION_DIR_NAME = "submissions2"
+SUBMISSION_DIR_NAME = "submissions"
 
 all_submission_file_paths = glob.glob(os.path.join(SUBMISSION_DIR_NAME, "*"))
 

@@ -6,7 +6,7 @@ from config import variants
 
 BUILD_DIR_NAME = "build"
 TEMPLATE_DIR_NAME = "templates"
-BASE_TEMPLATE_PATH = os.path.join(TEMPLATE_DIR_NAME, "base.template")
+BASE_TEMPLATE_PATH = os.path.join(TEMPLATE_DIR_NAME, "base.c")
 SOLUTION_FILE_NAME = "solution.txt"
 STUDENTS_FILE = "students.json"
 SUPPORTED_INT_OPERAND_TYPES = ["int8_t", "int16_t", "int32_t",

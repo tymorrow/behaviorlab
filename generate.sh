@@ -1,6 +1,8 @@
-rm -rf ./build
+#!/usr/bin/env bash
+set -e
 
-python generate.py
+rm -rf ./build
+python3 generate.py
 
 make
 
